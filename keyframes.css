@@ -1,0 +1,34 @@
+@-webkit-keyframes flick {
+    0% { opacity: 1; }
+    49.99% { opacity: 1; }
+    50% { opacity: 0; }
+    99.99% { opacity: 0; }
+}
+
+@-moz-keyframes flick {
+    0% { opacity: 1; }
+    49.99% { opacity: 1; }
+    50% { opacity: 0; }
+    99.99% { opacity: 0; }
+}
+
+@-ms-keyframes flick {
+    0% { opacity: 1; }
+    49.99% { opacity: 1; }
+    50% { opacity: 0; }
+    99.99% { opacity: 0; }
+}
+
+@-o-keyframes flick {
+    0% { opacity: 1; }
+    49.99% { opacity: 1; }
+    50% { opacity: 0; }
+    99.99% { opacity: 0; }
+}
+
+@keyframes flick {
+    0% { opacity: 1; }
+    49.99% { opacity: 1; }
+    50% { opacity: 0; }
+    99.99% { opacity: 0; }
+}
