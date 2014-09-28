@@ -1,0 +1,78 @@
+@import 'keyframes.css';
+
+body {
+	background: #f9f9f9 url('subtle_dots.png') repeat;
+}
+
+#one #img{
+	font-family: "Consolas",Helvetica,Arial,sans-serif;
+	font-size: 5em;
+	color: #222;
+	float: left;
+	margin: 15% auto auto 14%;
+	position: relative;
+	text-shadow: 2px 2px 1px rgba(0,0,0,.3);
+}
+
+#one {
+	text-align: left;
+	text-shadow: 0 1px 1px rgba(0,0,0,.25);
+	-webkit-font-smoothing: antialiased;
+}
+
+a {
+	border-bottom: 1px dotted black;
+}
+#center a, a:visited {
+	text-decoration: none;
+	color: #222;
+	-moz-transition: all 1s ease;
+	-webkit-transition: all 1s ease;
+	-o-transition: all 1s ease;
+}
+
+#center a:hover {
+	background: black;
+	color: white;
+	-moz-transition: all 1s ease;
+	-webkit-transition: all 1s ease;
+	-o-transition: all 1s ease;
+}
+
+#center {
+	display: block;
+	width: 565px;
+	margin: 9% auto auto 1.7%;
+	font-family: "Consolas",Helvetica,Arial,sans-serif;
+	font-size: 1.1em;
+	float: left;
+	position: relative;
+	padding-top: 15px;
+	padding-left: 30px;
+	border-left: 2px dashed black;
+	-webkit-border-left: 2px dashed black;
+	-moz-border-left: 2px dashed black;
+	-o-border-left: 2px dashed black;
+}
+
+.typing {
+    position: relative;
+    display: inline-block;
+    width: 8px;
+    text-indent: -999em;
+    background: #ccc;
+    -webkit-animation: flick 1s infinite;
+    -moz-animation: flick 1s infinite;
+    -ms-animation: flick 1s infinite;
+    -o-animation: flick 1s infinite;
+    animation: flick 1s infinite;
+  }
+
+  #footer {
+  	float: left;
+  	margin: 45% auto auto 45%;
+  	color: #878787;
+  	position: absolute;
+  	text-shadow: .5px 1px 1px;
+  	font-size: 0.7em;
+  }

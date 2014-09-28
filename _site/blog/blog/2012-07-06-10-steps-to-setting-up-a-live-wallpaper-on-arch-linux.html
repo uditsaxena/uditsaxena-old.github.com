@@ -1,0 +1,131 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Sctict//EN" 
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+	<title>10 steps to setting up a live wallpaper on [Arch] Linux.</title>
+	<meta name="author" content="Udit Saxena"/>
+	<link rel="stylesheet" href="/css/styles.css" />
+	
+	<!-- <script type="text/javascript">
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-4237681-10']);
+		_gaq.push(['_trackPageview']);
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+
+	</script> -->
+</head>
+<body>
+
+	<div id="container">
+		<div id="header">
+			<div id="me">
+				<a href="/">
+					<span id="Udit">Udit<br></span>
+					<span id="Saxena">Saxena</span>
+				</a>
+			</div>
+			<div id="mousing">&nbsp;</div>
+			<div class="site">
+	
+			</div>
+			<div id="sections">
+				<div>
+					<a href="/about.html">about</a>
+				</div>
+				<!-- <div>
+					<a href="/projects.html">projects</a>
+				</div> -->
+			</div>
+			<div id="icons">
+				<div class="side-github">
+					<a href="http://www.github.com/uditaxena"><img src="/images/github.png" /></a>
+				</div>
+				<div class="side-twitter">
+					<a href="http://www.twitter.com/saxenaudit"><img src="/images/twitter.png" /></a>
+				</div>
+			</div>
+
+
+
+		</div>
+
+
+
+			<div id="body-header">
+				<p></p>
+			</div>
+
+			<div class="content">
+  <div id="post">
+    <h1>
+  <a href="/blog/blog/2012-07-06-10-steps-to-setting-up-a-live-wallpaper-on-arch-linux.html">10 steps to setting up a live wallpaper on [Arch] Linux.</a>
+</h1>
+<div class="authoring">
+  
+</div>
+    <p>One reason why people switch over to Linux is the cool customization and tweaking capabilities offered.</p>
+
+
+<p>One of my first tweaks on Arch was setting up a live desktop. I could have used so many conky configurations, so many skins and themes.. but this simple trick was.. elegant.</p>
+
+
+<p>My desktop wallpaper is now a live view of the Earth from one of NASA's satellites. It keeps updating every three hours, with the shadow of the Sun visibly shifting.</p>
+
+
+<p>So the steps to set one up on your Linux desktop are :</p>
+
+
+<p>1. Download and install gnome-schedule from your package manager.</p>
+
+
+<p>Install the package gnome-schedule by using the command : "sudo pacman -S gnome-schedule" or its equivalent in your package manager.</p>
+
+
+<p>2. Run the application</p>
+
+
+<p>3. Click the "New" icon to setup a new task and select the option : " A task that launches recurrently ". Give it a title - moving wallpaper or something.</p>
+
+
+<p>4. Now the command : In the command line copy this and paste it there : " wget -O 1600.jpg --user-agent="Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/534.10 (KHTML, like Gecko) Chrome/8.0.552.224 Safari/534.10" http://static.die.net/earth/mercator/1600.jpg "</p>
+
+
+<p>Understanding the command :  <a title="GNU - wget" href="http://www.gnu.org/software/wget/" target="_blank">wget</a> is a software package for retrieving files from the web. Here the -O option means "--output document=file".</p>
+
+
+<p>the file is 1600.jpg from the site root : "http://static.die.net/earth/mercator/1600.jpg" whereas the  --user-agent option is used to circumvent a kind of protection against direct downloads on that site. Each of the option therein are for different web browsers.</p>
+
+
+<p>5. Choose to "Suppress the output" in the next option.</p>
+
+
+<p>6. Below these, there are options to set how frequently this command runs. Make it a 3 hour update. Put "*/3" in the hour line.</p>
+
+
+<p>7. Save and execute the command.</p>
+
+
+<p>8. The image should be saved in your "Home" directory. Put it as your desktop background.</p>
+
+
+<p>There it is!! Now every three hours, your background is updated as the image on the site is updated. Here's mine :</p>
+
+
+<p><a href="http://uditsaxena.files.wordpress.com/2012/07/screenshot-from-2012-07-06-165327.png"><img class="size-full wp-image-167" title="Screenshot from 2012-07-06 16:53:27" src="/images/assets/screenshot-from-2012-07-06-165327.png" alt="@5 pm." width="640" height="359" /></a> My desktop. It's around 5 pm as of now.</p>
+
+
+<p><em><strong>Note</strong>: This setup could've also been done without the use of the gnome-schedule package. A simple crontab could have done the trick as well. Or instead, one might've used the software package : "<a href="http://mein-neues-blog.de/xplanetfx/" target="_blank">xPlanetFx</a>" - a much more comprehensive but complicated option.</em></p>
+
+
+  </div>
+
+</div>
+	</div>
+</body>
+</html>

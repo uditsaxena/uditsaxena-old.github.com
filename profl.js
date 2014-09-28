@@ -38,10 +38,10 @@
                     setTimeout(function() {
                         me.innerHTML = html[i - 1];
                         animate(i);
-                    }, 400);
+                    }, 200);
                 }
             }
-        }, 70);
+        }, 45);
     };    
 animate(0);
 })(document, window);
