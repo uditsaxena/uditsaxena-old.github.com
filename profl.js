@@ -4,10 +4,10 @@
 
     //  If you don't have QSA, you must hate me
     if(!doc.querySelector) {
-        return alert('Your browser sucks. You don\'t have QSA. Sorry.');
+        return alert('Your browser is incompatible. Sorry.');
     }
     
-    var list = doc.querySelector('section'),
+    var list = doc.querySelector('#logo-left-text'),
         all = list.children,
         i = all.length,
         html = [];

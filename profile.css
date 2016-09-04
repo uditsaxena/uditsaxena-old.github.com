@@ -4,14 +4,24 @@ body {
 	background: #f9f9f9 url('subtle_dots.png') repeat;
 }
 
-#one #img{
-	font-family: "Consolas",Helvetica,Arial,sans-serif;
-	font-size: 5em;
-	color: #222;
+#one #logo-left{
 	float: left;
-	margin: 15% auto auto 14%;
+	margin: 2% auto auto 4%;
 	position: relative;
+	width: 250px;
+	font-family: "Consolas",Helvetica,Arial,sans-serif;
+	color: #222;
+	text-align: center;
+	}
+
+#one #logo-left-text{
+	font-size: 4em;
+	height: 180px;
 	text-shadow: 2px 2px 1px rgba(0,0,0,.3);
+}
+
+#one #logo-left-bottom {
+	font-size: 12;
 }
 
 #one {
@@ -23,7 +33,7 @@ body {
 a {
 	border-bottom: 1px dotted black;
 }
-#center a, a:visited {
+a, a:visited {
 	text-decoration: none;
 	color: #222;
 	-moz-transition: all 1s ease;
@@ -31,7 +41,7 @@ a {
 	-o-transition: all 1s ease;
 }
 
-#center a:hover {
+a:hover {
 	background: black;
 	color: white;
 	-moz-transition: all 1s ease;
@@ -41,14 +51,14 @@ a {
 
 #center {
 	display: block;
-	width: 565px;
-	margin: 9% auto auto 1.7%;
+	width: 60%;
+	margin: 6% auto auto 1.7%;
 	font-family: "Consolas",Helvetica,Arial,sans-serif;
 	font-size: 1.1em;
 	float: left;
 	position: relative;
 	padding-top: 15px;
-	padding-left: 30px;
+	padding-left: 40px;
 	border-left: 2px dashed black;
 	-webkit-border-left: 2px dashed black;
 	-moz-border-left: 2px dashed black;
@@ -70,7 +80,7 @@ a {
 
   #footer {
   	float: left;
-  	margin: 45% auto auto 45%;
+  	margin: 50% auto auto 45%;
   	color: #878787;
   	position: absolute;
   	text-shadow: .5px 1px 1px;
