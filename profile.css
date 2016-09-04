@@ -9,7 +9,7 @@ body {
 	margin: 2% auto auto 4%;
 	position: relative;
 	width: 250px;
-	font-family: "Consolas",Helvetica,Arial,sans-serif;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 	color: #222;
 	text-align: center;
 	}
@@ -53,7 +53,7 @@ a:hover {
 	display: block;
 	width: 60%;
 	margin: 6% auto auto 1.7%;
-	font-family: "Consolas",Helvetica,Arial,sans-serif;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 	font-size: 1.1em;
 	float: left;
 	position: relative;
