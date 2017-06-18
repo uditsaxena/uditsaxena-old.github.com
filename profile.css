@@ -2,6 +2,7 @@
 
 body {
 	background: #f9f9f9 url('subtle_dots.png') repeat;
+	font-family: 'Dosis', sans-serif;
 }
 
 #one #logo-left{
@@ -9,7 +10,8 @@ body {
 	margin: 3.5% auto auto 4%;
 	position: relative;
 	width: 250px;
-	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	/*font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;*/
+	font-family: 'Dosis', sans-serif;
 	color: #222;
 	text-align: center;
 	}
@@ -54,7 +56,8 @@ a:hover {
 	display: block;
 	width: 60%;
 	margin: 5% auto auto 1.7%;
-	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	/*font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;*/
+	font-family: 'Dosis', sans-serif;
 	font-size: 1.1em;
 	float: left;
 	position: relative;
