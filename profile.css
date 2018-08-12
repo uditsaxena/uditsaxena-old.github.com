@@ -7,13 +7,14 @@ body {
 
 #one #logo-left{
 	float: left;
-	margin: 3.5% auto auto 4%;
+	margin: 2.75% auto auto 4%;
 	position: relative;
 	width: 250px;
 	/*font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;*/
 	font-family: 'SF Display', sans-serif;
 	color: #222;
 	text-align: center;
+    font-size: 0.9em;
 	}
 
 #one #logo-left-text{
