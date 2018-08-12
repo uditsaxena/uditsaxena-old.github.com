@@ -55,13 +55,13 @@ a:hover {
 #center {
 	display: block;
 	width: 60%;
-	margin: 5% auto auto 1.7%;
+	margin: 1.5% auto auto 1.7%;
 	/*font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;*/
 	font-family: 'SF Display', sans-serif;
 	font-size: 1.1em;
 	float: left;
 	position: relative;
-	padding-top: 15px;
+	padding-top: 0px;
 	padding-left: 40px;
 	border-left: 2px dashed black;
 	-webkit-border-left: 2px dashed black;
@@ -84,7 +84,7 @@ a:hover {
 
   #footer {
   	float: left;
-  	margin: 50% auto auto 45%;
+  	margin: 50.5% auto auto 45%;
   	color: #878787;
   	position: absolute;
   	text-shadow: .5px 1px 1px;
